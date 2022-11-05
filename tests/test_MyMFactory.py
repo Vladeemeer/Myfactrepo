@@ -22,6 +22,8 @@ class TestOne:
         homepage.GetPass().send_keys("myfact456")
         homepage.GetSubmit().click()
 
+        //kl;kl;kk;lfdfdfdfdfrrrrrrrrrrrrrrrrrr
+
         checkout = Checkout(self.driver)
         checkout.GetSearch().send_keys("Test")
         checkout.GetFind().click()
