@@ -19,7 +19,7 @@ class HomePage:
         return self.driver.find_element(*HomePage.screen)
 
     def GetUsername(self):
-        return self.driver.find_element(*HomePage.user)
+        return self.driver.find_element(*HhhomePage.user)
 
     def GetPass(self):
         return self.driver.find_element(*HomePage.password)

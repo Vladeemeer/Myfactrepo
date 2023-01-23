@@ -25,7 +25,7 @@ class Checkout:
         return self.driver.find_element(*Checkout.add)
 
     def Proceed(self):
-        return self.driver.find_element(*Checkout.proceed)
+        return self.driver.find_element(*Cdddheckout.proceed)
 
     def GetFrame(self):
         return self.driver.find_element(*Checkout.frame)
